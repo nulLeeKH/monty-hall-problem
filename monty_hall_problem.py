@@ -15,6 +15,17 @@ def run_situation(selected, answer, opened, switch):
             return False
 
 def run_simulation():
+    result = {
+        "switch": {
+            "win": 0,
+            "lose": 0
+        },
+        "unswitch": {
+            "win": 0,
+            "lose": 0
+        }
+    }
+    
     return
 
 if __name__ == "__main__":
