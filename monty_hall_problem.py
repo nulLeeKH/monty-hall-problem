@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+import random
+
 def run_situation(selected, switch, answer):
     return
 
