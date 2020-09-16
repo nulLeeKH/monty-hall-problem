@@ -2,7 +2,7 @@
 
 import random
 
-def run_situation(selected, switch, answer):
+def run_situation(selected, switch, opened, answer):
     return
 
 def run_simulation():
