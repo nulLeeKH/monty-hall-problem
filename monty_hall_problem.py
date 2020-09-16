@@ -2,7 +2,7 @@
 
 import random
 
-def run_situation(selected, switch, opened, answer):
+def run_situation(selected, answer, opened, switch):
     if switch:
         if selected == answer:
             return False
