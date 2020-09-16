@@ -26,7 +26,7 @@ def run_simulation():
         }
     }
     
-    return
+    return result
 
 if __name__ == "__main__":
     result = run_simulation()
