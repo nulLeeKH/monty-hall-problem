@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import random
+import sys
 
 def run_situation(selected, answer, opened, switch):
     if switch:
