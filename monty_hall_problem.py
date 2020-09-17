@@ -30,6 +30,9 @@ def run_simulation(count):
     return result
 
 if __name__ == "__main__":
-    count = 3
+    if len(sys.argv) != 2:
+        print("Usage: " + sys.argv[0] + "monty_hall_problem.py <count>")
+        exit()
+    count = int(sys.argv[1])
     result = run_simulation(count)
 
