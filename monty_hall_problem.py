@@ -14,7 +14,7 @@ def run_situation(selected, answer, opened, switch):
         else:
             return False
 
-def run_simulation():
+def run_simulation(count):
     result = {
         "switch": {
             "win": 0,
@@ -29,5 +29,6 @@ def run_simulation():
     return result
 
 if __name__ == "__main__":
-    result = run_simulation()
+    count = 3
+    result = run_simulation(count)
 
